@@ -15,9 +15,11 @@
 .wrapper{
     width:100vw;
     height:800px;
-  
-    background-image:url(assets/bg1.jpeg)
-
+    color: var(--colorLight2);
+    background-image: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1 {
     text-align: center;
     text-transform:uppercase;
@@ -28,9 +30,9 @@ h1 {
     width:90%;
     max-width: 550px;
     margin: 0 auto;
-    margin-top: 4rem;
+    margin-top: 2.3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .tab{
